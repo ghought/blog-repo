@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A simple static website with blog functionality",
   "scripts": {
-    "start": "npm run build && serve dist",
+    "start": "npm run build && serve dist -p 4000",
     "build": "node scripts/build.js",
-    "dev": "npm run build && serve dist"
+    "dev": "npm run build && serve dist -p 4000"
   },
   "dependencies": {
     "marked": "^11.1.0",
